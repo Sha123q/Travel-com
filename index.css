@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Serif 4', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -16,11 +17,10 @@ header{
 
 .items-anta{
   color: #131318;
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+  margin-right: 700px;
 
 }
 
@@ -29,12 +29,13 @@ line-height: normal;
   font-family: Mulish;
   font-size: 36px;
   font-style: normal;font-weight: 800;
-   line-height: normal;
+
 }
 
 nav{
   display: flex;
   justify-content: space-between;
+
 }
 
 nav > ul{
@@ -42,15 +43,14 @@ nav > ul{
 }
 
 nav li {
-  list-style: none;
-  margin-right: 30px;
+   list-style: none;
+   margin-right: 30px;
    color: var(--Dark-02, #424247);
    text-align: center;
-  font-family: Mulish;
+   font-family: Mulish;
    font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-weight: 400;
+
 }
 
 nav li a {
@@ -60,18 +60,17 @@ nav li a {
 
 .color{
   color: #FF5400;
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+
 }
 
 .banner {
   background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
-   width: 1170px;
-   height: 500px;
+  width: 1170px;
+  height: 500px;
   flex-shrink: 0;
   margin-top: 30px;
   border-radius: 16px;
@@ -88,24 +87,22 @@ line-height: normal;
 }
 
 .titel-box{
-  color: #FFF;
+color: #FFF;
 font-family: Mulish;
 font-size: 64px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
+
 
 }
 
 .titel-bos{
   color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-margin-top: 10px;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 10px;
 }
 
 #search-box{
@@ -114,19 +111,17 @@ margin-top: 10px;
   align-items: flex-start;
    gap: 24px;
    border-radius: 8px;
-   
-
    margin-top: 20px;
 
 }
 
 .btm-color{
   width: 174px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FF5400;
-justify-content: center;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+  justify-content: center;
 }
 
 .features{
@@ -137,66 +132,60 @@ justify-content: center;
 
 .section-title{
   color: #131318;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+ 
 
 }
 
 .text-light{
   width: 577px;
   color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-margin-top: 20px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 20px;
 }
 
 .gap-titel{
   width: 525px;
   color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-margin: 5px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 5px;
 }
 
 .gap-ti{
   width: 525px;
   color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-margin: 5px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 5px;
 }
 
 .gap-tito{
   width: 525px;
   color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-margin: 5px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 5px;
 }
 
 .praesent-pra{
   width: 530px;
   color: #5A5A5D;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 
 .btm-color{
@@ -215,21 +204,17 @@ line-height: 26px; /* 162.5% */
   text-align: center;
   font-family: Mulish;
   font-size: 40px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .mai-sekn{
   margin-top: 24px;
-  text-align: center;
   color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 
 .img{
@@ -242,19 +227,17 @@ line-height: 26px; /* 162.5% */
 text-align: center;
 font-family: Mulish;
 font-size: 40px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 margin-top: 10px;
 }
 
 .titel-bo{
- margin-top: 15px;
- color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
+  margin-top: 15px;
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
@@ -267,6 +250,7 @@ flex-shrink: 0;
 border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
+ 
 
 }
 
@@ -278,8 +262,8 @@ background: rgba(251, 181, 99, 0.05);
 .text-lig{
   text-align: center;
   width: 573px;
-height: 284px;
-flex-shrink: 0;
+  height: 284px;
+  flex-shrink: 0;
   border-radius: 16px;
   border: 1px solid rgba(233, 68, 68, 0.20);
   background: rgba(233, 68, 68, 0.05);
@@ -294,7 +278,6 @@ flex-shrink: 0;
   color: #131318;
   font-family: Mulish;
   font-size: 40px;
-  font-style: normal;
   font-weight: 800;
   line-height: 60px; /* 150% */
   padding: 50px;
@@ -306,7 +289,6 @@ flex-shrink: 0;
   color: #5A5A5D;
   font-family: Mulish;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   /* line-height: 26px; /* 162.5% */
   
@@ -318,7 +300,6 @@ flex-shrink: 0;
   color: #131318;
   font-family: Mulish;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 26px; /* 162.5% */
   margin-top: 24px;
@@ -330,31 +311,285 @@ flex-shrink: 0;
   color: #131318;
  font-family: Mulish;
  font-size: 16px;
-font-style: normal;
 font-weight: 700;
 line-height: 26px; /* 162.5% */
 margin-top: 24px;
 }
 
 
-.features{
-  width: 610px;
-height: 424px;
+
+.main-setep{
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.second-setap{
+  margin-left: 200px;
+}
+
+.title-text{
+  width: 448px;
+  color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px; /* 150% */
+
+}
+
+.titel-ala{
+  width: 532px;
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 24px;
+}
+
+.text-gik{
+  width: 518px;
+  color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+margin-top: 24px;
+
+}
+
+.text-ajk{
+  width: 518px;
+  color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+margin-top: 16px;
+
+}
+
+.class-contak{
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+border-radius: 16px;
+
+}
+
+.class-first{
+  width: 474px;
+height: 422px;
 flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 70px;
+margin-left: 200px;
+
+}
+
+.class-four{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.class-sex{
+  width: 350px;
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+/* line-height: 26px; /* 162.5% * */
+   margin-top: 16px;
+}
+
+.input-btm{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 30px;
+
+}
+
+.input-titel{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 16px;
+
+}
+
+.button-titel{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 38px;
+}
+
+#butm-titel{
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5400;
+}
+
+.save-up{
+  width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 16px;
+background: #FF5400;
+text-align: center;
+position: relative;
+top: 250px;
+right: 350px;
+
+
+
+}
+
+.save-set{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 400;
+
+}
+ 
+.save-as{
+  color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+
+.text-center{
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+background: rgba(19, 19, 24, 0.05);
+}
+
+.text-contend{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+
+ 
+}
+
+.center-text{
+  width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+margin-top: 110px;
 }
 
 
-@media screen and (max-width: 600px) {
+.items-ane{
+  color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+margin-left: 16px;
+margin-top: 110px;
+}
+
+.text-center{
+  text-align: center;
+  justify-content: center;
+}
+
+
+.text-adikal{
+  margin-top: 16px;
+  color: #5A5A5D;
+  font-size: 16px
+}
+
+.img-tag{
+  border-radius: 16px;
+  margin: 10px;
+  margin-top: 50px;
+
+
+}
+
+.line{
+  width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-left: 250px;
+margin-top: 50px;
+}
+
+.lest-sekson{
+  margin-top: 50px;
+}
+
+.lest-para{
+  color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+}
+
+
+@media screen and (max-width: 425px) {
   header{
     padding: 20px;
   }
-  nav,
-  .enconte-img
-  .features{
+  nav{
     flex-direction: column;
   }
+  .logo-style{
+    width:50px;
+  }
+  
   .banner{
-    height: 100%;
-    width: 100%;
+   height: 100%;
+   width: 100%;
+  }
+   
+.features{
+  flex-direction: column;
 }
+
+.enconte-img{
+  grid-template-columns: 1f;
 }
+
+.about-conter{
+  flex-direction: column;
+}
+
+.main-setep{
+  flex-direction: column;
+}
+
+.class-contak{
+  flex-direction: column;
+}
+ .text-center{
+  height: 100%;
+  width: 100%;
+ }
+}
+
+/* laptops/and desktops */
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+
+  }
